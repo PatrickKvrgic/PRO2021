@@ -1,0 +1,7 @@
+D:\PRO2021\VajaZaGit\VajaZaGit\bin\Debug\VajaZaGit.exe.config
+D:\PRO2021\VajaZaGit\VajaZaGit\bin\Debug\VajaZaGit.exe
+D:\PRO2021\VajaZaGit\VajaZaGit\bin\Debug\VajaZaGit.pdb
+D:\PRO2021\VajaZaGit\VajaZaGit\obj\Debug\VajaZaGit.csproj.AssemblyReference.cache
+D:\PRO2021\VajaZaGit\VajaZaGit\obj\Debug\VajaZaGit.csproj.CoreCompileInputs.cache
+D:\PRO2021\VajaZaGit\VajaZaGit\obj\Debug\VajaZaGit.exe
+D:\PRO2021\VajaZaGit\VajaZaGit\obj\Debug\VajaZaGit.pdb

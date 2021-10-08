@@ -10,7 +10,7 @@ namespace RekurzijaVaja
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("2 na 10 je "+PotencaIterativno(10));
+            Console.WriteLine("2 na 10 je " + PotencaIterativno(10));
             Console.WriteLine("2 na 10 je " + PotencaRekurzivno(10));
             Console.WriteLine("7 Fibonaccijevo stevilo je " + Fib(7));
             Console.WriteLine("5 stevilo je " + Vaja3(5));
@@ -85,4 +85,5 @@ namespace RekurzijaVaja
                 return 3;
             return 2 * Vaja7(n - 1) + 2;
         }
+    }
 }

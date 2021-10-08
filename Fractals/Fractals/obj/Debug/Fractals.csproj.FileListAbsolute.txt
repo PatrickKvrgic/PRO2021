@@ -1,0 +1,10 @@
+D:\PRO2021\Fractals\Fractals\bin\Debug\Fractals.exe.config
+D:\PRO2021\Fractals\Fractals\bin\Debug\Fractals.exe
+D:\PRO2021\Fractals\Fractals\bin\Debug\Fractals.pdb
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.csproj.AssemblyReference.cache
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.Form1.resources
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.Properties.Resources.resources
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.csproj.GenerateResource.cache
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.csproj.CoreCompileInputs.cache
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.exe
+D:\PRO2021\Fractals\Fractals\obj\Debug\Fractals.pdb

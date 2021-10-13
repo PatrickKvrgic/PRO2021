@@ -33,5 +33,9 @@ namespace VSŠMobil
                     break;
             }
         }
+        public override string ToString()
+        {
+            return Ime + " dolguje " + Stanje;
+        }
     }
 }

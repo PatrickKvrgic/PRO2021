@@ -17,7 +17,7 @@ namespace VSŠMobil
             Kupec60 alenka = new Kupec60();
             alenka.Ime = "Alenka Prinčič";
             alenka.BeležiKlic(70, 2);
-            Console.WriteLine(alenka.Ime + " dolguje " + alenka.Stanje);
+            Console.WriteLine(alenka.ToString());
             Console.WriteLine("Metoda GetType " + alenka.GetType());
             Console.WriteLine("Metoda ToString " + alenka.ToString());
             Console.ReadLine();

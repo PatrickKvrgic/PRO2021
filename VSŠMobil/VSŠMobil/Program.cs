@@ -20,6 +20,13 @@ namespace VSŠMobil
             Console.WriteLine(alenka.ToString());
             Console.WriteLine("Metoda GetType " + alenka.GetType());
             Console.WriteLine("Metoda ToString " + alenka.ToString());
+
+            Kupec[] vsi = new Kupec[3]; //tabela treh elementov tipa kupec
+            vsi[0] = new Kupec();
+            vsi[1] = new Kupec60();
+            vsi[1].Ime = "Maja Novak";
+            vsi[1].BeležiKlic(70, 2);
+            Console.WriteLine(vsi[1].ToString());
             Console.ReadLine();
         }
     }

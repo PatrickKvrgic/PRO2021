@@ -10,27 +10,17 @@ namespace UrejanjeTabel
     {
         static void Main(string[] args)
         {
-            int n = 100000;
-            int[] a = new int[n];
-            Random r = new Random();
-            for (int k = 0; k < n; k++)
-            {
-                a[k] = r.Next(n);
-            }
+            int n = 10;
+            string[] a = new string[n];
             DateTime d = DateTime.Now;
-            Vstavljanje(a);
             DateTime d1 = DateTime.Now;
             TimeSpan ts = d1 - d;
-            Console.WriteLine("čas za Vstavljanje je \t" + ts.TotalMilliseconds + " ms");
-            for (int k = 0; k < n; k++)
-            {
-                a[k] = r.Next(n);
-            }
+           
             d = DateTime.Now;
-            Izbiranje(a);
+            Quicksort(0, a.Length - 1, a);
             d1 = DateTime.Now;
             ts = d1 - d;
-            Console.WriteLine("čas za Izbiranje je \t" + ts.TotalMilliseconds + " ms");
+            Console.WriteLine("čas za QuickSort je \t" + ts.TotalMilliseconds + " ms");
             Console.ReadLine();
         }
         static void Izbiranje(int[] a)
@@ -72,13 +62,65 @@ namespace UrejanjeTabel
             }
         }
 
-        static void Izpis(int[] a)
+        static void Izpis(string[] a)
         {
             for (int k = 0; k < a.Length; k++)
             {
                 Console.Write(a[k] + "\t");
             }
             Console.WriteLine();
+        }
+
+        static int Pivot(int zač, int konec, string[] tab)
+        {
+            string p = tab[zač];
+            int m = zač;
+            int n = konec + 1;
+            //pišči z m prvega, ki je večji od p
+            do
+            {
+                m = m + 1;
+            }
+            while (tab[n].CompareTo(p) <= 0 && n < m);
+            do
+            {
+                n = n - 1;
+            }
+            while (tab[m].CompareTo(p) >= 0 && m > n && m >= n);
+            //tab[m] je večji od p
+            //tab[n] je manjši od p
+            //zamenjaj jih
+            while (m < n)
+            {
+                string temp = tab[m];
+                tab[m] = tab[n];
+                tab[n] = temp;
+                do
+                {
+                    m = m + 1;
+                }
+                while (tab[m].CompareTo(p) <= 0);
+                do
+                {
+                    n = n - 1;
+                }
+                while (tab[n].CompareTo(p) > 0);
+            }
+            //zamenjaj pivotni element, z elementom tab[n]
+            string temp2 = tab[n];
+            tab[n] = tab[zač];
+            tab[zač] = temp2;
+            Izpis(tab);
+            return n;
+        }
+
+        static void Quicksort(int zač, int konec, string[] tab)
+        {
+            if (zač >= konec)
+                return;
+            int a = Pivot(zač, konec, tab);
+            Quicksort(zač, a - 1, tab);//levi del
+            Quicksort(a + 1, konec, tab);//desni del
         }
     }
 }

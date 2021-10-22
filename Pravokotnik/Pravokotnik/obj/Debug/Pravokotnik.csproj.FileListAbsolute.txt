@@ -1,0 +1,7 @@
+D:\PRO2021\Pravokotnik\Pravokotnik\bin\Debug\Pravokotnik.exe.config
+D:\PRO2021\Pravokotnik\Pravokotnik\bin\Debug\Pravokotnik.exe
+D:\PRO2021\Pravokotnik\Pravokotnik\bin\Debug\Pravokotnik.pdb
+D:\PRO2021\Pravokotnik\Pravokotnik\obj\Debug\Pravokotnik.csproj.AssemblyReference.cache
+D:\PRO2021\Pravokotnik\Pravokotnik\obj\Debug\Pravokotnik.csproj.CoreCompileInputs.cache
+D:\PRO2021\Pravokotnik\Pravokotnik\obj\Debug\Pravokotnik.exe
+D:\PRO2021\Pravokotnik\Pravokotnik\obj\Debug\Pravokotnik.pdb
